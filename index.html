@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/src/css/index.css">
+  <link rel="stylesheet" href="assets/src/css/responsiveindex.css">
+  <script src="assets/src/js/index.js" defer></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  
+</head>
+<body>
+  <main class="card">
+    <section class="inputs">
+      <div class="input-day">
+        <label id="labelday" for="day">Day</label>
+        <input type="number" name="day" id="day" placeholder="DD">
+        <div class="error">
+          <span class="errorspan">This field is required</span>
+        </div>
+      </div>
+      <div class="input-month">
+        <label id="labelmonth" for="month">Month</label>
+        <input type="number" name="month" id="month" placeholder="MM">
+        <div class="error">
+          <span class="errorspan">This field is required</span>
+        </div>
+      </div>
+      <div class="input-year">
+        <label id="labelyear" for="year">Year</label>
+        <input type="number" name="year" id="year" placeholder="YYYY">
+        <div class="error">
+          <span class="errorspan">This field is required</span>
+        </div>
+      </div>
+    </section>
+    <div class="line-button">
+      <hr>
+      <button id="arrowbtn">
+        <img src="assets/images/icon-arrow.svg" alt="icon-arrow">
+        arrowbtn
+      </button>
+    </div>
+    <section class="result">
+      <p><span id="resultyears">--</span> years</p>
+      <p><span id="resultmonths">--</span> months</p>
+      <p><span id="resultdays">--</span> days</p>
+    </section>
+  </main>
+  <footer class="attribution">
+    <p >Challenge by <a href="https://www.frontendmentor.io/profile/jvssvj" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-62b518263/" target="_blank">João Vitor</a></p>
+  </footer>
+</body>
+</html>

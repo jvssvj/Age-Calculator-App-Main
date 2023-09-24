@@ -1,0 +1,57 @@
+@media(max-width:666px) {
+    .card {
+        max-width: 270px;
+        max-height: 350px;
+        padding: 2rem 1rem 1rem 1rem;
+        border-radius: 1rem 1rem 5rem 1rem;
+    }
+
+    .inputs {
+        justify-content: center;
+    }
+
+    label {
+        font-size: 0.5rem;
+        letter-spacing: 0.12rem;
+    }
+    
+    .input-day, .input-month {
+        margin-right: 1rem;
+    }
+
+    .line-button {
+        margin-top: 1.7em;
+        justify-content: center;
+    }
+
+    #arrowbtn {
+        position: absolute;
+        padding: 0.5rem;
+        max-width: 60px;
+        height: 60px;
+    }
+
+    #arrowbtn img {
+        width: 25px;
+    }
+    
+    input {
+        max-width: 55px;
+        font-size: 1rem;
+        padding: 0.5em;
+    }
+
+    .result {
+        margin-top: 0.9em;
+        font-size: 2.6rem;
+        line-height: unset;
+    }
+
+    .error span {
+        font-size: 0.45rem;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}
