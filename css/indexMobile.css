@@ -1,0 +1,138 @@
+@media(max-width:785px) {
+    .calculator {
+        max-width: 680px;
+        margin-top: 1em;
+    }
+
+    .calculator__inputs {
+        max-width: unset;
+    }
+
+    .calculator__line {
+        position: relative;
+        height: 96px;
+        justify-content: center;
+        margin-top: 2.703rem;
+    }
+
+    .calculator__result {
+        margin-top: 2rem;
+        line-height: 5.5rem;
+    }
+
+    .cr__time {
+        font-size: 4rem;
+    }
+
+    .cl__line {
+        width: 100%;
+    }
+
+    #cl__arrow--btn {
+        position: absolute;
+    }
+
+    .attribution {
+        position: unset;
+        margin-top: 5em;
+    }
+}
+
+@media(max-width:605px) {
+    .calculator {
+        padding: 1.1em 1.5rem;
+        border-radius: 1.5rem 1.5rem 7rem 1.5rem;
+    }
+
+    .input {
+        height: 55px;
+    }
+
+    .input::placeholder {
+        font-size: 1.25rem;
+    }
+
+    .cr__result__value,
+    .cr__time {
+        font-size: 3.2rem;
+    }
+}
+
+@media(max-width:500px) {
+    .calculator__line {
+        height: 64px;
+    }
+
+    #cl__arrow--btn {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .cl__arrow__btn__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .calculator__result {
+        margin-top: 1rem;
+        line-height: 4rem;
+    }
+
+    .error {
+        bottom: -1.2rem;
+    }
+}
+
+@media(max-width:494px) {
+    .input {
+        font-size: 1.2rem;
+    }
+
+    .input::placeholder {
+        font-size: 1rem;
+    }
+
+    .cr__result__value,
+    .cr__time {
+        font-size: 2.89rem;
+    }
+
+    .error {
+        bottom: -2rem;
+    }
+}
+
+@media(max-width:330px) {
+    .calculator {
+        padding: 1em .5rem;
+        border-radius: 1.5rem 1.5rem 4rem 1.5rem;
+    }
+    
+    .calculator__inputs {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .input {
+        max-width: unset;
+    }
+
+    .calculator__result {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 2rem;
+    }
+
+    .cr__time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .error {
+        bottom: -1.1rem;
+    }
+}

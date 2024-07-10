@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/indexMobile.css">
+  <script src="src/index.js" defer></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  
+</head>
+<body>
+  <main class="calculator">
+    <div class="calculator__inputs">
+
+      <div class="ci__input__day input__div">
+        <label class="label" id="label--day" for="input--day">Day</label>
+        <input class="input" type="number" name="day" id="input--day" placeholder="DD">
+  
+        <span id="error--day" class="error"></span>
+      </div>
+
+      <div class="ci__input__month input__div">
+        <label class="label" id="label--month" for="input--month">Month</label>
+        <input class="input" type="number" name="month" id="input--month" placeholder="MM">
+
+        <span id="error--month" class="error"></span>
+      </div>
+
+      <div class="ci__input__year input__div">
+        <label class="label" id="label--year" for="input--year">Year</label>
+        <input class="input" type="number" name="year" id="input--year" placeholder="YYYY">
+
+        <span id="error--year" class="error"></span>
+      </div>
+      
+    </div>
+
+    <div class="calculator__line">
+      <hr class="cl__line">
+      <div id="cl__arrow--btn">
+        <img class="cl__arrow__btn__img" src="images/icon-arrow.svg" alt="icon-arrow">
+      </div>
+    </div>
+
+    <div class="calculator__result">
+      <p class="cr__time"><span class="cr__result__value" id="result--years">--</span> years</p>
+      <p class="cr__time"><span class="cr__result__value" id="result--months">--</span> months</p>
+      <p class="cr__time"><span class="cr__result__value" id="result--days">--</span> days</p>
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    <p >Challenge by <a href="https://www.frontendmentor.io/profile/jvssvj" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-62b518263/" target="_blank">João Vitor</a></p>
+  </footer>
+</body>
+</html>
